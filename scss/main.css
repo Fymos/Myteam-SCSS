@@ -84,6 +84,11 @@ a {
   box-shadow: none;
 }
 
+.hidden {
+  color: transparent;
+  position: absolute;
+}
+
 .hero {
   padding-top: 130px;
   background: #014E56;
