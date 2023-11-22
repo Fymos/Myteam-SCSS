@@ -1,0 +1,73 @@
+.top__footer {
+  background: $lightPink;
+  background-image: url(../img/Group\ 8\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.top__footer__inner {
+  display: flex;
+  justify-content: space-around;
+}
+.top__footer--title {
+  margin-right: 260px;
+  color: $darkBlue;
+  font-weight: 700;
+  font-size: 48px;
+}
+.footer__btn {
+  @include citeBtn;
+  background: $lightPink;
+  color: $ultradarkBlue;
+  border: 2px solid $ultradarkBlue;
+  &:hover {
+    background: $ultradarkBlue;
+    color: #FFF;
+  }
+}
+.bottom__footer {
+  padding: 48px 0;
+  height: 196px;
+  background: $ultradarkBlue;
+}
+.bottom__footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__list {
+  margin-top: 25px;
+  display: flex;
+  li {
+    margin-left: 5px;
+  }
+}
+.footer__left {
+  display: flex;
+}
+.footer__box1 {
+  margin-right: 125px;
+}
+.footer__box2 {
+  h5 {
+    margin-top: 18px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 6px;
+    opacity: 0.6;
+  }
+}
+.socials {
+  display: flex;
+  justify-content: end;
+}
+.footer__data {
+  margin-top: 61px;
+  color: #FFF;
+  text-align: right;
+  font-weight: 600;
+  opacity: 0.6;
+}

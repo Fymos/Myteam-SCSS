@@ -1,0 +1,55 @@
+.deliver {
+  padding-top: 140px;
+  padding-bottom: 151px;
+  background: $mediumBlue;
+  background-image: url(../img/Group\ 8\ Copy.svg), url(../img/Group\ 8.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+.deliver__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  b {
+    color: $aquamarine;
+  }
+}
+.deliver__list {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.deliver__item {
+  padding-top: 25px;
+  background-image: url(../img/“.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+  .deliver__desc {
+    width: 350px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+  .deliver__name {
+    margin-top: 24px;
+    color: #79C8C7;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .deliver__text {
+    margin-top: 5px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .deliver__img {
+    margin-top: 32px;
+    width: 62px;
+  }
+}
+
+

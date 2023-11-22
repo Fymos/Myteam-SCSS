@@ -1,0 +1,36 @@
+.header {
+  padding-top: 77px;
+  background: #014E56;
+  height: 126px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__box {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  margin-left: 80px;
+  display: flex;
+}
+.nav__item {
+  margin: 0 20px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.nav__link {
+  color: #FFF;
+}
+.nav__btn {
+  @include citeBtn;
+  &:hover {
+    color: $darkBlue;
+    background: #fff;
+    box-shadow: none;
+  }
+}

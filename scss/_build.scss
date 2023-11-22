@@ -1,0 +1,43 @@
+.build {
+  padding-top: 140px;
+  height: 684px;
+  background: $darkBlue;
+  background-image: url(../img/Group\ 8\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.build__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.build__title {
+  background: url(../img/Rectangle\ \(1\).png);
+  background-repeat: no-repeat;
+  padding-top: 54px;
+  width: 445px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.build__item {
+  margin-top: 32px;
+  display: flex;
+  align-items: start;
+}
+.build__box {
+  margin-left: 23px;
+}
+.build__subtitle {
+  color: #F67E7E;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.build__desc {
+  margin-top: 16px;
+  width: 445px;
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 15px;
+  opacity: 0.8;
+}

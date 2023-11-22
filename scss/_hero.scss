@@ -1,0 +1,31 @@
+.hero {
+  padding-top: 130px;
+  background: $lightBlue;
+  height: 574px;
+  background-image: url(../img/Group\ 8.png), url(../img/Group\ 7.png);
+  background-repeat: no-repeat;
+  background-position: top 140px left, bottom right 165px;
+}
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__title {
+  color: #FFF;
+  font-family: Livvic;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  b {
+    color: #F67E7E;
+  }
+}
+.hero__desc {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  background: url(../img/Rectangle.png);
+  background-repeat: no-repeat;
+  padding-top: 79px;
+  width: 445px;
+}
